@@ -9,13 +9,13 @@
 <body>
 
 	<%! int globalCount = 0; %>
-	<%! int localCount= 0; %>
+	<% int localCount= 0; %>
 	
 	<%
 		globalCount++;
 		localCount++;
 	%>
-	
+	   
 	globalCount = <%=globalCount %>
 	localCount = <%=localCount %>
 </body>
